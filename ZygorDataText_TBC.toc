@@ -1,9 +1,9 @@
 ## Title: Zygor DataText
 ## Author: Cytoph
 ## Version: 1.1.0
-## Dependencies: ZygorGuidesViewer
-## Interface: 100000
-## X-Interface: 100000
+## Dependencies: ZygorGuidesViewerClassicTBC
+## Interface: 20504
+## X-Interface: 20504
 ## X-Curse-Project-ID: 351942
 
 # Libraries
