@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        
+      - name: Create zip file
+        run: zip -r ${{ github.event.repository.name }}_${{ github.event.release.name }}.zip .
+        
+      - name: Upload to CurseForge
+        uses: itsmeow/curseforge-upload@v3
+        with:
+          file_path: "${{ github.event.repository.name }}_${{ github.event.release.name }}.zip"
+          game_endpoint: "wow"
+          game_versions: "9094,9049,9320,9493"
+          project_id: "351942"
+          token: "${{ secrets.CURSEFORGE_API_KEY }}"
+          display_name: "v${{ github.event.release.name }}"
+          changelog: "${{ github.event.release.body }}"
