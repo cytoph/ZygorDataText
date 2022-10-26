@@ -13,7 +13,7 @@ jobs:
         uses: actions/checkout@v2
         
       - name: Create zip file
-        run: zip -r ${{ github.event.repository.name }}_${{ github.event.release.name }}.zip .
+        run: zip -r ${{ github.event.repository.name }}_${{ github.event.release.name }}.zip . -x \*.git\*
         
       - name: Upload to CurseForge
         uses: itsmeow/curseforge-upload@v3
