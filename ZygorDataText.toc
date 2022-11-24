@@ -1,6 +1,6 @@
 ## Title: Zygor DataText
-## Author: Cytoph
-## Version: 1.1.0
+## Author: @project-author@
+## Version: @project-version@
 ## Dependencies: ZygorGuidesViewer
 ## Interface: 100000
 ## X-Interface: 100000

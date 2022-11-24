@@ -1,0 +1,9 @@
+package-as: ZygorDataText
+enable-nolib-creation: no
+
+ignore:
+ - pkgmeta.yaml
+ - README.md
+
+license-output:
+ LICENSE

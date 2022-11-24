@@ -1,6 +1,6 @@
 ## Title: Zygor DataText
-## Author: Cytoph
-## Version: 1.1.0
+## Author: @project-author@
+## Version: @project-version@
 ## Dependencies: ZygorGuidesViewerClassicTBC
 ## Interface: 11403
 ## X-Interface: 11403
