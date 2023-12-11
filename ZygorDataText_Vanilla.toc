@@ -1,9 +1,9 @@
 ## Title: Zygor DataText
 ## Author: @project-author@
 ## Version: @project-version@
-## Dependencies: ZygorGuidesViewerClassicTBC
-## Interface: 11403
-## X-Interface: 11403
+## Dependencies: ZygorGuidesViewerClassic
+## Interface: 11500
+## X-Interface: 11500
 ## X-Curse-Project-ID: 351942
 
 # Libraries
