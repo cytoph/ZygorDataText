@@ -2,8 +2,8 @@
 ## Author: @project-author@
 ## Version: @project-version@
 ## Dependencies: ZygorGuidesViewerClassicTBC
-## Interface: 30403
-## X-Interface: 30403
+## Interface: 40400
+## X-Interface: 40400
 ## X-Curse-Project-ID: 351942
 
 # Libraries
