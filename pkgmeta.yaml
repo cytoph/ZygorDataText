@@ -4,6 +4,7 @@ enable-nolib-creation: no
 ignore:
  - pkgmeta.yaml
  - README.md
+ - .gitignore
 
 license-output:
  LICENSE

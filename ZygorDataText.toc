@@ -2,8 +2,8 @@
 ## Author: @project-author@
 ## Version: @project-version@
 ## Dependencies: ZygorGuidesViewer
-## Interface: 100207
-## X-Interface: 100207
+## Interface: 110100
+## X-Interface: 110100
 ## X-Curse-Project-ID: 351942
 
 # Libraries
