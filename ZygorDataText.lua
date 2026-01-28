@@ -19,7 +19,7 @@ local originalUpdateButton = NC.UpdateButton
 function NC:UpdateButton()
 
 	counter = 0
-	
+
 	if ZGV.db.profile.nc_enable then
 		for i,entry in ipairs(NC.Entries) do
 			if not entry.data.reviewed then
@@ -27,7 +27,7 @@ function NC:UpdateButton()
 			end
 		end
 	end
-	
+
 	if counter == 0 then
 		dataBroker.label = brokerLabel
 	else
@@ -35,7 +35,7 @@ function NC:UpdateButton()
 	end
 
 	originalUpdateButton(self)
-	
+
 end
 
 -- copied from NC:ShowAll; just replaced fixed parent
@@ -44,7 +44,7 @@ local function ShowNotificationCenter(clickedFrame, force)
 		CloseDropDownForks()
 		return
 	end
-		
+
 	if NC.SingleNotif:IsVisible() then
 		NC.SingleNotif:CancelFadeTimer()
 		NC.SingleNotif:Hide()
@@ -60,7 +60,7 @@ local function ShowNotificationCenter(clickedFrame, force)
 		minWidth=225,
 	})
 	local LIMIT,COUNTER = 5,0
-	
+
 	local parent = clickedFrame
 
 	if #NC.Entries==0 then
@@ -93,7 +93,7 @@ local function ShowNotificationCenter(clickedFrame, force)
 			end
 		end
 	end
-	
+
 	ZGV.Frame.Controls.MenuHostNotifications:ClearAllPoints()
 	if tonumber(parent:GetLeft())>225 then
 		UIDropDownFork_SetAnchor(ZGV.Frame.Controls.MenuHostNotifications, 0, 0, "TOPRIGHT", parent, "BOTTOMRIGHT")
@@ -109,9 +109,9 @@ end
 local function DataTextClicked(clickedFrame, button)
 
 	if ZGV.Config.Running or ZGV.Tutorial.Running then return end
-	
+
 	GameTooltip:Hide()
-	
+
 	if button=="LeftButton" then
 		if ZGV.db.profile.nc_enable then
 			if ZGV.loading then
@@ -125,14 +125,14 @@ local function DataTextClicked(clickedFrame, button)
 	else
 		ZGV:ToggleFrame()
 	end
-	
+
 end
 
 local function DataTextTooltip(tooltip)
 
 	tooltip:SetText(ZGV.L['minimap_tooltip'])
 	tooltip:Show()
-	
+
 end
 
 dataBroker = lib:NewDataObject(ZGVname, {
