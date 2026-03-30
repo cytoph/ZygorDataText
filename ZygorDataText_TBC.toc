@@ -5,6 +5,7 @@
 ## Interface: 20505
 ## X-Interface: 20505
 ## X-Curse-Project-ID: 351942
+## X-Expansion: TBC
 
 # Libraries
 Libs\AceAddon-3.0\AceAddon-3.0.xml

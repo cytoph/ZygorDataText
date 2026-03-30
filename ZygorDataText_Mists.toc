@@ -2,9 +2,10 @@
 ## Author: @project-author@
 ## Version: @project-version@
 ## Dependencies: ZygorGuidesViewerClassicTBC
-## Interface: 50502
-## X-Interface: 50502
+## Interface: 50503
+## X-Interface: 50503
 ## X-Curse-Project-ID: 351942
+## X-Expansion: MISTS
 
 # Libraries
 Libs\AceAddon-3.0\AceAddon-3.0.xml
