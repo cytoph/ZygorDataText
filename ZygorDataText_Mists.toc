@@ -2,8 +2,8 @@
 ## Author: @project-author@
 ## Version: @project-version@
 ## Dependencies: ZygorGuidesViewerClassicTBC
-## Interface: 50503
-## X-Interface: 50503
+## Interface: 50504
+## X-Interface: 50504
 ## X-Curse-Project-ID: 351942
 ## X-Expansion: MISTS
 

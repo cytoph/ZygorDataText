@@ -2,8 +2,8 @@
 ## Author: @project-author@
 ## Version: @project-version@
 ## Dependencies: ZygorGuidesViewer
-## Interface: 120001, 120005
-## X-Interface: 120001, 120005
+## Interface: 120105
+## X-Interface: 120105
 ## X-Curse-Project-ID: 351942
 ## X-Expansion: MAINLINE
 

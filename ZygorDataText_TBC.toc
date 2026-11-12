@@ -2,8 +2,8 @@
 ## Author: @project-author@
 ## Version: @project-version@
 ## Dependencies: ZygorGuidesViewerClassicTBCAnniv
-## Interface: 20505
-## X-Interface: 20505
+## Interface: 20506
+## X-Interface: 20506
 ## X-Curse-Project-ID: 351942
 ## X-Expansion: TBC
 
